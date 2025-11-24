@@ -1,0 +1,21 @@
+# Eclipse/IDE files
+.project
+.classpath
+.settings/
+
+# Generated folders
+.apt_generated/
+
+# Build artifacts
+*.class
+*.war
+*.ear
+*.log
+
+# Libraries (proprietary JARs)
+extlib/
+WebContent/WEB-INF/lib/
+
+# OS-specific
+Thumbs.db
+.DS_Store
