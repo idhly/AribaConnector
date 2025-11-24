@@ -20,21 +20,19 @@ Tested ok with NetWeaver Java Application Server 7.50 SP13.
 
 ## Project Structure
 
-src/
-- com/example/ariba/AribaCxmlServlet.java
-WebContent/
-- WEB-INF/web.xml
-- index.jsp
-.gitignore
-README.MD
+- src/com/example/ariba/AribaCxmlServlet.java
+- WebContent/WEB-INF/web.xml
+- WebContent/index.jsp
+- .gitignore
+- README.md
 
 ## Usage
 
 1. Deploy `AribaConnector` with NWDS 7.50 to your SAP NetWeaver Java server.
 2. Access the servlet via:
 
-GET http://<host>:<port>/AribaConnector/cxml
-POST http://<host>:<port>/AribaConnector/cxml
+GET http(s)://<host>:<port>/AribaConnector/cxml
+POST http(s)://<host>:<port>/AribaConnector/cxml
 
 3. The servlet will forward the request to the Ariba endpoint and return the response.
 
